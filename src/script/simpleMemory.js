@@ -289,24 +289,25 @@ function initCheck() {
 // get version config
 function getVersionConfig() {
 
-    window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
+    // window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
 
-    if (window.cnblogsConfig.isVersionMapping) {
-        var url = 'https://raw.githubusercontent.com/' + window.cnblogsConfig.GhUserName + '/' + window.cnblogsConfig.GhRepositories + '/master/version.conf';
+    // if (window.cnblogsConfig.isVersionMapping) {
+        // var url = 'https://raw.githubusercontent.com/' + window.cnblogsConfig.GhUserName + '/' + window.cnblogsConfig.GhRepositories + '/master/version.conf';
 
-        $.ajax({
-            type: "get",
-            url: url,
-            dataType: "text",
-            async: false,
-            success: function(conf)
-            {
-                window.themeVersion = conf ? JSON.parse(conf) : false;
-                window.themeVersion && setConfVersion();
-            }
-        });
+        // $.ajax({
+            // type: "get",
+            // url: url,
+            // dataType: "text",
+            // async: false,
+            // success: function(conf)
+            // {
+                // window.themeVersion = conf ? JSON.parse(conf) : false;
+                // window.themeVersion && setConfVersion();
+            // }
+        // });
 
-    } else if(window.cnblogsConfig.GhUserName === 'yoomu') {
+    // } else 
+		if(window.cnblogsConfig.GhUserName === 'yoomu') {
         window.themeVersion = [
             [
                 "v1.1.6",

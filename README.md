@@ -1,2 +1,2 @@
 # Cnblogs-Theme
-萌新自用
+v1.0

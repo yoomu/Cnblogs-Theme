@@ -88,7 +88,7 @@ if (initCheck()) {
     window.cnblogsConfigDefault = {
         GhUserName: 'yoomu',
         GhRepositories: 'Cnblogs-Theme',
-        GhVersions: 'v1.0',
+        GhVersions: '1.0',
         CnVersions: "",
         blogUser: "",
         blogAvatar: "",
@@ -169,12 +169,12 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://cdn.jsdelivr.net/gh/yoomu/Cnblogs-Theme@master/img/webp/home_top_bg.webp"
+            "http://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302"
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
         essayTopImg: [
-            "https://cdn.jsdelivr.net/yoomu/Cnblogs-Theme@master/img/webp/nothome_top_bg.webp"
+            "http://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302"
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
